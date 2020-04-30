@@ -1,0 +1,79 @@
+GIT 
+Git is a Distributed Version Control System - DVCS
+official git site - http://git-scm.com/
+
+$ git help
+$ git help config
+
+git config --global user.name "Lalith Amudala" --> who gets  credit
+git config --global user.email amudalalalith@gmail.com --> what email to use
+
+git config --global color.ui true
+
+Starting a Repo
+
+mkdir store --> create a directory
+
+cd store --> go into that directory
+
+git init --> Initialized empty Git repository in C:/Users/Lalith Amudala/store/.git/initialize empty Git repository in /Users/lalith/store/.git/
+git metadata is stored here never need to go into that directory
+
+GIT Work Flow
+
+1. Jane  creates README.txt file
+	Starts as untracked
+
+2. Add file to staging area
+	Getting ready to take a picture
+	
+3. Commit changes
+	A snapshot of those on the stage
+
+Repeat the above as needed as they are basic steps like below
+
+1. Jane  creates README.txt file & adds a license file
+
+2. Add both files to staging area
+	Getting ready to take a picture
+	
+3. Commit changes
+	A snapshot of those on the stage
+
+---
+
+git status --> To check the status
+
+git add README.txt --> To add it to the staging area
+
+git commit -m "Create a README." --> Takes a snapshot of the commit and that gets added to our timeline
+
+---
+
+one main time-line master
+
+adding to staging area of multiple files via listing them one after the other
+
+git add README.txt LICENSE
+
+or 
+
+we can use
+
+git add --all
+
+git log 						--> log of all the commits
+
+git add <list of file>
+
+git add --all 					-->add all files
+
+git add *.txt 					-->add all txt files in the current directory
+
+git add docs/*.txt  			-->add all txt files in docs directory
+
+git add docs/ 					-->add all files in docs directory
+
+git add "*.txt" 				git-->Add all txt files in the whole project.
+
+
