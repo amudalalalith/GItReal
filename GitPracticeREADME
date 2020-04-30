@@ -76,4 +76,16 @@ git add docs/ 					-->add all files in docs directory
 
 git add "*.txt" 				git-->Add all txt files in the whole project.
 
+---
+git diff --> show unstaged differences since last commit
 
+testing git diff
+--
+after staging if we run "git diff" we wont be able to see and differences
+
+we must use "git diff --staged"
+
+---
+
+git reset HEAD GitPracticeREADME --> to move back from staging to avoid a commit
+git checkout -- GitPracticeREADME   --> to discard changes in working directory
